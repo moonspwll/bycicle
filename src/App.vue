@@ -2,12 +2,12 @@
   <v-app>
     <v-app-bar
       app
-      color="primary"
+      color="warning"
       dark
     >
       <div class="d-flex align-center">
-        <span class="logo">
-          BYCICLE RIDE
+        <span class="mr-2">
+          VeloLife
         </span>
       </div>
 
@@ -18,7 +18,6 @@
         target="_blank"
         text
       >
-        <span class="mr-2">Latest Release</span>
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
     </v-app-bar>
@@ -64,6 +63,9 @@
         </v-row>
       </v-container>
     </v-main>
+    <v-footer color="warning"
+              dark>
+    </v-footer>
   </v-app>
 </template>
 
